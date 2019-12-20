@@ -8,7 +8,7 @@ RUN npm install -g nodemon
 
 #Copy code from your machine directory into working directory
 COPY ./app/package*.json ./
-COPY ./app/app.js ./
+COPY ./app/read.js ./
 
 #Install the app and its depdendencies with NPM 
 RUN npm install
